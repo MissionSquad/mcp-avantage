@@ -1,0 +1,51 @@
+{
+  "name": "mcp-avantage-server",
+  "version": "1.0.0",
+  "description": "MCP Server wrapping the @missionsquad/avantage Alpha Vantage library",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-avantage-server": "./dist/index.js"
+  },
+  "scripts": {
+    "clean": "rm -rf dist build",
+    "build": "npm run clean && tsc && chmod +x dist/index.js",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch & node --watch dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\" \"./*.{js,json,md}\" \".nexus/**/*.md\"",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "alphavantage",
+    "avantage",
+    "llm",
+    "ai",
+    "finance"
+  ],
+  "author": "Nexus Task Assistant",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@missionsquad/avantage": "^1.0.4",
+    "@missionsquad/fastmcp": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "uuid": "^11.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.13",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
