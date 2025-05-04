@@ -1,6 +1,6 @@
 {
   "name": "mcp-avantage-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP Server wrapping the @missionsquad/avantage Alpha Vantage library",
   "type": "module",
   "main": "dist/index.js",
@@ -29,7 +29,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@missionsquad/avantage": "^1.0.4",
-    "@missionsquad/fastmcp": "^1.0.0",
+    "@missionsquad/fastmcp": "^1.0.1",
     "dotenv": "^16.4.7",
     "uuid": "^11.1.0",
     "zod": "^3.23.8"

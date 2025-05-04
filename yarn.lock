@@ -63,10 +63,10 @@
     papaparse "^5.4.1"
     zod "^3.23.8"
 
-"@missionsquad/fastmcp@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@missionsquad/fastmcp/-/fastmcp-1.0.0.tgz#782bc9cf1358f4267c3635e5b4fc0a3e002ed87d"
-  integrity sha512-UiwgudumpAvz+AzC4LY1A/EXVSuyCzZ0pWSjeDr7STsggqgBx55Vf4ZinCNVKgPtzyU13umbjHDlLGvKZeOgdQ==
+"@missionsquad/fastmcp@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@missionsquad/fastmcp/-/fastmcp-1.0.1.tgz#48d4334893b60ad42c71705fc891ff28c38b5f1b"
+  integrity sha512-M70XzhvdsL7mMA62J1rmXuiInnMNvbCXHsAAXqP7V0BeWQoJvpggJt37h9WCpERWHgHxYdyPB1OTi6GMbCdRNg==
   dependencies:
     "@modelcontextprotocol/sdk" "^1.6.0"
     execa "^9.5.2"
@@ -80,10 +80,10 @@
     zod "^3.24.2"
     zod-to-json-schema "^3.24.3"
 
-"@modelcontextprotocol/sdk@^1.6.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@modelcontextprotocol/sdk/-/sdk-1.8.0.tgz#55cdd65054ec24e53800250c70e07429d669db67"
-  integrity sha512-e06W7SwrontJDHwCawNO5SGxG+nU9AAx+jpHHZqGl/WrDBdWOpvirC+s58VpJTB5QemI4jTRcjWT4Pt3Q1NPQQ==
+"@modelcontextprotocol/sdk@^1.10.1", "@modelcontextprotocol/sdk@^1.6.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@modelcontextprotocol/sdk/-/sdk-1.11.0.tgz#9f1762efe6f3365f0bf3b019cc9bd1629d19bc50"
+  integrity sha512-k/1pb70eD638anoi0e8wUGAlbMJXyvdV4p62Ko+EZ7eBe1xMx8Uhak1R5DgfoofsK5IBBnRwsYGTaLZl+6/+RQ==
   dependencies:
     content-type "^1.0.5"
     cors "^2.8.5"
@@ -91,7 +91,7 @@
     eventsource "^3.0.2"
     express "^5.0.1"
     express-rate-limit "^7.5.0"
-    pkce-challenge "^4.1.0"
+    pkce-challenge "^5.0.0"
     raw-body "^3.0.0"
     zod "^3.23.8"
     zod-to-json-schema "^3.24.1"
@@ -676,7 +676,7 @@ eventsource-parser@^3.0.1:
   resolved "https://registry.yarnpkg.com/eventsource-parser/-/eventsource-parser-3.0.1.tgz#5e358dba9a55ba64ca90da883c4ca35bd82467bd"
   integrity sha512-VARTJ9CYeuQYb0pZEPbzi740OWFgpHe7AYJ2WFZVnUDUQp5Dk2yJUgF36YsZ81cOyxT0QxmXD2EQpapAouzWVA==
 
-eventsource@^3.0.2, eventsource@^3.0.5:
+eventsource@^3.0.2, eventsource@^3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-3.0.6.tgz#5c4b24cd70c0323eed2651a5ee07bd4bc391e656"
   integrity sha512-l19WpE2m9hSuyP06+FbuUUf1G+R0SFLrtQfbRb9PRr+oimOfxQhgGCbVaXg5IvZyyTThJsxh6L/srkMiCeBPDA==
@@ -797,9 +797,9 @@ file-entry-cache@^6.0.1:
     flat-cache "^3.0.4"
 
 file-type@^20.3.0:
-  version "20.4.1"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-20.4.1.tgz#8a58cf0922c6098af0ca5d84d5cf859c0c0f56a5"
-  integrity sha512-hw9gNZXUfZ02Jo0uafWLaFVPter5/k2rfcrjFJJHX/77xtSDOfJuEFb6oKlFV86FLP1SuyHMW1PSk0U9M5tKkQ==
+  version "20.5.0"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-20.5.0.tgz#616e90564e6ffabab22ad9763e28efcc5c95aee0"
+  integrity sha512-BfHZtG/l9iMm4Ecianu7P8HRD2tBHLtjXinm4X62XBOYzi7CYA7jyqfJzOvXHqzVrVPYqBo2/GvbARMaaJkKVg==
   dependencies:
     "@tokenizer/inflate" "^0.2.6"
     strtok3 "^10.2.0"
@@ -1174,12 +1174,12 @@ math-intrinsics@^1.1.0:
   integrity sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==
 
 mcp-proxy@^2.10.4:
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/mcp-proxy/-/mcp-proxy-2.12.0.tgz#ccfc3c16a27d58482b7b147e4c6c3cfb99bb87da"
-  integrity sha512-hL2Y6EtK7vkgAOZxOQe9M4Z9g5xEnvR4ZYBKqFi/5tjhz/1jyNEz5NL87Uzv46k8iZQPVNEof/T6arEooBU5bQ==
+  version "2.13.1"
+  resolved "https://registry.yarnpkg.com/mcp-proxy/-/mcp-proxy-2.13.1.tgz#4da3506679fa9cb32a27f212fb6483bc68f135d5"
+  integrity sha512-8e7aknoD9Q3+3OJ+2cpnBZ9T78VUSiwKjCRUio98y+kCsXFpbyAHQx95ZCffk+/Bhk5nTP0JuWX3edbj4zoHAQ==
   dependencies:
-    "@modelcontextprotocol/sdk" "^1.6.0"
-    eventsource "^3.0.5"
+    "@modelcontextprotocol/sdk" "^1.10.1"
+    eventsource "^3.0.6"
     yargs "^17.7.2"
 
 media-typer@^1.1.0:
@@ -1378,10 +1378,10 @@ picomatch@^2.3.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-pkce-challenge@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/pkce-challenge/-/pkce-challenge-4.1.0.tgz#95027d7750c3c0f21676a345b48f481786f9acdb"
-  integrity sha512-ZBmhE1C9LcPoH9XZSdwiPtbPHZROwAnMy+kIFQVrnMCxY4Cudlz3gBOpzilgc0jOgRaiT3sIWfpMomW2ar2orQ==
+pkce-challenge@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/pkce-challenge/-/pkce-challenge-5.0.0.tgz#c3a405cb49e272094a38e890a2b51da0228c4d97"
+  integrity sha512-ueGLflrrnvwB3xuo/uGob5pd5FN7l0MsLf0Z87o/UQmRtwjvfylfc9MurIxRAWywCYTgrvpXBcqjV4OfCYGCIQ==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -1732,9 +1732,9 @@ undici-types@~6.19.2:
   integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
 undici@^7.4.0:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-7.6.0.tgz#a57f69b6710027b7ef7fed3654a6d05e788115e0"
-  integrity sha512-gaFsbThjrDGvAaD670r81RZro/s6H2PVZF640Qn0p5kZK+/rim7/mmyfp2W7VB5vOMaFM8vuFBJUaMlaZTYHlA==
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.8.0.tgz#cf51854a6cb26808a9c6a3fb2c58c13c94d10081"
+  integrity sha512-vFv1GA99b7eKO1HG/4RPu2Is3FBTWBrmzqzO0mz+rLxN3yXkE4mqRcb8g8fHxzX4blEysrNZLqg5RbJLqX5buA==
 
 unicorn-magic@^0.3.0:
   version "0.3.0"
@@ -1832,7 +1832,12 @@ zod-to-json-schema@^3.24.1, zod-to-json-schema@^3.24.3:
   resolved "https://registry.yarnpkg.com/zod-to-json-schema/-/zod-to-json-schema-3.24.5.tgz#d1095440b147fb7c2093812a53c54df8d5df50a3"
   integrity sha512-/AuWwMP+YqiPbsJx5D6TfgRTc4kTLjsh5SOcd4bLsfUg2RcEXrFMJl1DGgdHy2aCfsIA/cr/1JM0xcB2GZji8g==
 
-zod@^3.23.8, zod@^3.24.2:
+zod@^3.23.8:
   version "3.24.2"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.2.tgz#8efa74126287c675e92f46871cfc8d15c34372b3"
   integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==
+
+zod@^3.24.2:
+  version "3.24.3"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.3.tgz#1f40f750a05e477396da64438e0e1c0995dafd87"
+  integrity sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==
