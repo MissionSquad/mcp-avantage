@@ -2,6 +2,10 @@
 
 This project provides a Model Context Protocol (MCP) server that wraps the `@missionsquad/avantage` library, exposing Alpha Vantage API functionalities as tools for Language Learning Models (LLMs).
 
+<a href="https://glama.ai/mcp/servers/@MissionSquad/mcp-avantage">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@MissionSquad/mcp-avantage/badge" alt="Avantage MCP server" />
+</a>
+
 ## Overview
 
 This server allows LLMs to interact with the Alpha Vantage API to retrieve financial data, including:
