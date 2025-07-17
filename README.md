@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/missionsquad-mcp-avantage-badge.png)](https://mseep.ai/app/missionsquad-mcp-avantage)
+
 # MCP Server for Alpha Vantage API (@missionsquad/avantage)
 
 This project provides a Model Context Protocol (MCP) server that wraps the `@missionsquad/avantage` library, exposing Alpha Vantage API functionalities as tools for Language Learning Models (LLMs).
